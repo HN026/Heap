@@ -72,7 +72,7 @@ int main()
 
 
    // Direction of adjustment in Heap insert is from the last element of the complete binary tree to the root and in delete, it is from the root the leaf elements. This difference is essential in knowing heapify method.
-   // In heapify there a lot less adjustments then the normal method as it from bottom to the root like in delete method. It's order of time is O(n).
+   // In heapify there a lot less adjustments then the normal method as it from bottom to the root like in delete method. It's order of time is O(n)
 
 
     return 0;
