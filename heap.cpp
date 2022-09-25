@@ -59,10 +59,10 @@ int main()
     }
 
     // Heap sort: 
-    for(int i = 7; i>1; i--)
-    {
-        Delete(H,i);
-    }
+    // for(int i = 7; i>1; i--)
+    // {
+    //     Delete(H,i);
+    // }
 
     
     for(int j = 1; j<=7; j++)
@@ -70,6 +70,9 @@ int main()
         cout<<H[j]<<" ";
     }
 
+
+   // Direction of adjustment in Heap insert is from the last element of the complete binary tree to the root and in delete, it is from the root the leaf elements. This difference is essential in knowing heapify method.
+   // In heapify there a lot less adjustments then the normal method as it from bottom to the root like in delete method. It's order of time is O(n).
 
 
     return 0;
